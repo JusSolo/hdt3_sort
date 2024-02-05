@@ -1,17 +1,12 @@
 package uvg.edu.gt;
 
+import junit.framework.TestCase;
+
 import java.util.Arrays;
 import java.util.List;
+public class RadixSortTest extends TestCase {
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public void testSort() {
         RadixSort<Integer> radixSort = new RadixSort<>();
 
         // Input list
@@ -24,6 +19,7 @@ public class App
         // Convert arrays to strings for comparison
         String expectedString = Arrays.toString(expectedSorted.toArray());
         String actualString = Arrays.toString(inputList.toArray());
-        System.out.println(expectedString);
+        // Assert that the list is sorted correctly
+        assertEquals(expectedSorted, inputList);
     }
 }
