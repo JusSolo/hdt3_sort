@@ -11,19 +11,22 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        RadixSort<Integer> radixSort = new RadixSort<>();
+        Aleator aleator = new Aleator();
+        Leo leo = new Leo();
+        String direccion = "/home/juan/Documentos/education/U/Semestres/Semestre_9/Algoritmos y Estructura/Tareas/HDT/Hdt3/src/main/java/uvg/edu/gt/numeros.txt";
+        aleator.random(direccion, 25);
+        List<List<Integer>> numeros = leo.leer(direccion);
+        for (int i = 0; i < numeros.size(); i++) {
+            System.out.print("Línea " + (i + 1) + ": ");
+            List<Integer> numerosEnLinea = numeros.get(i);
+            for (int j = 0; j < numerosEnLinea.size(); j++) {
+                System.out.print(numerosEnLinea.get(j));
+                if (j < numerosEnLinea.size() - 1) {
+                    System.out.print(", ");
+                }
+            }
+            System.out.println();
+        }
 
-        // Input list
-        List<Integer> inputList = Arrays.asList(542, 219, 438, 352, 999, 802, 246);
-        List<Integer> expectedSorted = Arrays.asList(219, 246, 352, 438, 542, 802, 999);
-
-        // Perform sorting
-        radixSort.sort(inputList);
-
-        // Convert arrays to strings for comparison
-        String expectedString = Arrays.toString(expectedSorted.toArray());
-        String actualString = Arrays.toString(inputList.toArray());
-        System.out.println(expectedString);
     }
 }

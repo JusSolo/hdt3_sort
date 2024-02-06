@@ -10,8 +10,8 @@ public class RadixSortTest extends TestCase {
         RadixSort<Integer> radixSort = new RadixSort<>();
 
         // Input list
-        List<Integer> inputList = Arrays.asList(542, 219, 438, 352, 999, 802, 246);
-        List<Integer> expectedSorted = Arrays.asList(219, 246, 352, 438, 542, 802, 999);
+        List<Integer> inputList = Arrays.asList(542, 219, 438, 352, 999, 802, 246, 5000 , 1000, -111);
+        List<Integer> expectedSorted = Arrays.asList(-111,219, 246, 352, 438, 542, 802, 999,1000,5000);
 
         // Perform sorting
         radixSort.sort(inputList);
