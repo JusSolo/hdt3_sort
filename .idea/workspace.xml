@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2a3ab20-59cf-4d9e-a5d4-3ba7cf300094" name="Changes" comment="Se agregaron varios algorithmos de ordenamiento">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/Aleator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/Leo.java" afterDir="false" />
+    <list default="true" id="b2a3ab20-59cf-4d9e-a5d4-3ba7cf300094" name="Changes" comment="versionando">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/GnomeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/uvg/edu/gt/RadixSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/uvg/edu/gt/RadixSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,38 +30,46 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/uvg/edu/gt/RadixSort.java" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bvJUwKBTs6wG59ejAYpiW98Q4H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuikSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuikSortTest.testSort.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RadixSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RadixSortTest.testSort.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.GnomeSort.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "JUnit.QuikSortTest.executor": "Run",
+    "JUnit.QuikSortTest.testSort.executor": "Run",
+    "JUnit.RadixSortTest.executor": "Run",
+    "JUnit.RadixSortTest.testSort.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Hdt3 [clean].executor": "Run",
+    "Maven.Hdt3 [compile].executor": "Run",
+    "Maven.Hdt3 [test].executor": "Run",
+    "Maven.Hdt3 [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -73,7 +78,7 @@
       <recent name="uvg.edu.gt" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RadixSortTest.testSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uvg.edu.gt.App" />
       <module name="Hdt3" />
@@ -87,7 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuikSortTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GnomeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uvg.edu.gt.GnomeSort" />
       <module name="Hdt3" />
       <extension name="coverage">
         <pattern>
@@ -95,10 +101,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="uvg.edu.gt" />
-      <option name="MAIN_CLASS_NAME" value="uvg.edu.gt.QuikSortTest" />
-      <option name="METHOD_NAME" value="testSort" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uvg.edu.gt.MergeSort" />
+      <module name="Hdt3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uvg.edu.gt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,12 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Hdt3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Hdt3" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.GnomeSort" />
         <item itemvalue="JUnit.RadixSortTest.testSort" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.RadixSortTest" />
-        <item itemvalue="JUnit.QuikSortTest.testSort" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +180,7 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -198,6 +228,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio" />
     <MESSAGE value="Se agregaron varios algorithmos de ordenamiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron varios algorithmos de ordenamiento" />
+    <MESSAGE value="versionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="versionando" />
   </component>
 </project>
