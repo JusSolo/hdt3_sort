@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MergeSort <T extends Comparable<T>> implements Sort<T>{
+
+    /**
+     * Metodo de sorteo de la clase
+     *
+     * @param list Lista a ser ordenada
+     */
     @Override
     public void sort(List<T> list) {
         if (list == null || list.size() <= 1) {
@@ -12,7 +18,12 @@ public class MergeSort <T extends Comparable<T>> implements Sort<T>{
 
         mergeSort(list, 0, list.size() - 1);
     }
-
+    
+    /**
+     * Metodo de sorteo de la clase
+     *
+     * @param list Lista a ser ordenada
+     */
     private void mergeSort(List<T> list, int start, int end) {
         if (start < end) {
             int mid = start + (end - start) / 2;
