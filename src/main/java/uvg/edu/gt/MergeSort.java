@@ -20,9 +20,11 @@ public class MergeSort <T extends Comparable<T>> implements Sort<T>{
     }
     
     /**
-     * Metodo de sorteo de la clase
+     * Funcion recursion para partir ramas y juntarlas
      *
      * @param list Lista a ser ordenada
+     * @param start Inicio de nueva rama
+     * @param end Final nueva rama
      */
     private void mergeSort(List<T> list, int start, int end) {
         if (start < end) {
@@ -36,7 +38,14 @@ public class MergeSort <T extends Comparable<T>> implements Sort<T>{
             merge(list, start, mid, end);
         }
     }
-
+    /**
+     * Metodo que une ramas
+     *
+     * @param list Lista a ser ordenada
+     * @param start Inicio de nueva rama
+     * @param end Final nueva rama
+     * @param mid Parametro para encontrar la mitad de la lista dividida
+     */
     private void merge(List<T> list, int start, int mid, int end) {
         List<T> temp = new ArrayList<>(end - start + 1);
 

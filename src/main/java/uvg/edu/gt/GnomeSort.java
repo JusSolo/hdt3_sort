@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GnomeSort <T extends Comparable<T>> implements Sort<T> {
+    /**
+     * Metodo de sorteo de la clase
+     *
+     * @param lista Lista a ser ordenada
+     */
     @Override
     public void sort(List<T> lista) {
             int index = 0;
