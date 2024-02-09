@@ -6,3 +6,5 @@
 
 ## Nota importante:
 En la rama master esta todo el código
+
+Abrir las gráficas guardadas como jprofiler para ver las graficas 
