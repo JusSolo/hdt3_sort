@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2a3ab20-59cf-4d9e-a5d4-3ba7cf300094" name="Changes" comment="Agregado GnomeSort y MergeSort">
+    <list default="true" id="b2a3ab20-59cf-4d9e-a5d4-3ba7cf300094" name="Changes" comment="Agregado GnomeSort y MergeSort documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/GnomeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/GnomeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uvg/edu/gt/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +42,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GnomeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuikSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuikSortTest.testSort.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RadixSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RadixSortTest.testSort.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Hdt3 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Hdt3 [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Hdt3 [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Hdt3 [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;profiler.jvm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Profiler#1",
+    "Application.GnomeSort.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "JUnit.QuikSortTest.executor": "Run",
+    "JUnit.QuikSortTest.testSort.executor": "Run",
+    "JUnit.RadixSortTest.executor": "Run",
+    "JUnit.RadixSortTest.testSort.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Hdt3 [clean].executor": "Run",
+    "Maven.Hdt3 [compile].executor": "Run",
+    "Maven.Hdt3 [test].executor": "Run",
+    "Maven.Hdt3 [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cjvil/Downloads",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "profiler.jvm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -179,7 +180,10 @@
       <workItem from="1707089643894" duration="5366000" />
       <workItem from="1707231615043" duration="4505000" />
       <workItem from="1707284855944" duration="24000" />
-      <workItem from="1707369850702" duration="306000" />
+      <workItem from="1707369850702" duration="1714000" />
+      <workItem from="1707403744960" duration="5181000" />
+      <workItem from="1707445087873" duration="2622000" />
+      <workItem from="1707452389164" duration="2287000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />
@@ -229,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707284871644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Agregado GnomeSort y MergeSort documentation">
+      <option name="closed" value="true" />
+      <created>1707370187508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707370187508</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Agregado GnomeSort y MergeSort documentation">
+      <option name="closed" value="true" />
+      <created>1707370194628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707370194628</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +271,12 @@
     <MESSAGE value="Se agregaron varios algorithmos de ordenamiento" />
     <MESSAGE value="versionando" />
     <MESSAGE value="Agregado GnomeSort y MergeSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregado GnomeSort y MergeSort" />
+    <MESSAGE value="Agregado GnomeSort y MergeSort documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado GnomeSort y MergeSort documentation" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hdt3_sort$App.ic" NAME="App Coverage Results" MODIFIED="1707453274019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uvg.edu.gt.*</FILTER>
+    </SUITE>
   </component>
 </project>

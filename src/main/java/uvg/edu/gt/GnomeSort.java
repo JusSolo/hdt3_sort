@@ -11,7 +11,7 @@ public class GnomeSort <T extends Comparable<T>> implements Sort<T> {
      */
     @Override
     public void sort(List<T> lista) {
-            int index = 0;
+            int index = -1;
 
             while (index < lista.size()) {
                 if (index == 0)
