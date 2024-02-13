@@ -7,4 +7,4 @@
 ## Nota importante:
 En la rama master esta todo el código
 
-Abrir las gráficas guardadas como jprofiler para ver las graficas 
+Correciones a las gráficas en el archivo nombrado Algoritmos de sorteo y su rendimiento en CPU 2
